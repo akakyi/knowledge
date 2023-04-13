@@ -5,6 +5,7 @@ https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/boot-features-jta.h
 https://www.baeldung.com/java-atomikos - вариант распределённой транзакции в контексте Atomikos
 
 ## про двухфазную фиксацию
+https://www.techtarget.com/searchapparchitecture/definition/two-phase-commit-2PC
 https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html
 https://otus.ru/nest/post/2945/ (тут слабовато чот)
 https://www.narayana.io/ технология реализации
