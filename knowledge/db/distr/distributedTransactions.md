@@ -11,6 +11,10 @@ https://www.narayana.io/ технология реализации
 (про него во https://www.baeldung.com/java-atomikos, а в контексте REST про него во https://www.atomikos.com/Blog/TransactionalRESTMicroservicesWithAtomikos)
 или https://github.com/bitronix/btm
 реализуют JTA
+### Схема работы атомикоса
+![img.png](img.png)
+Про сам JTA:
+https://www.progress.com/tutorials/jdbc/understanding-jta
 ## про саги
 https://learn.microsoft.com/ru-ru/azure/architecture/reference-architectures/saga/saga
 ## про XA
