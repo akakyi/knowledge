@@ -7,6 +7,7 @@ https://www.baeldung.com/java-atomikos - вариант распределённ
 ## про двухфазную фиксацию
 https://www.techtarget.com/searchapparchitecture/definition/two-phase-commit-2PC
 https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html
+https://en.wikipedia.org/wiki/Two-phase_commit_protocol
 https://otus.ru/nest/post/2945/ (тут слабовато чот)
 https://www.narayana.io/ технология реализации
 или https://www.atomikos.com/Main/WebHome
