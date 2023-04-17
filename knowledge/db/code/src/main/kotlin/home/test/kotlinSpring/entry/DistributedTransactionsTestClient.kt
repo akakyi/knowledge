@@ -12,7 +12,7 @@ import org.springframework.web.client.getForObject
 import java.util.UUID
 
 @RestController
-class Client(
+class DistributedTransactionsTestClient(
     private val firstEntityRepo: FirstEntityRepo,
     private val secondEntityRepo: SecondEntityRepo,
     private val testClient: RestTemplate
