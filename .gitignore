@@ -1,3 +1,4 @@
 *.iml
 .idea
-*/target
+knowledge/db/code/target
+knowledge/code/javatest/target
