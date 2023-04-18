@@ -35,10 +35,32 @@ class PureJavaTest {
                 case "3" -> "govno";
                 default -> "pizda)))00)";
             };
+            System.out.println(b);
         }
+
+        val huiSosi = """
+                Sanya hui sosi
+                    Hui sosi Sanya
+                """;
+        System.out.println(huiSosi);
+
+        val huiSosiSnova = """
+                    Sanya hui sosi
+                    Hui sosi Sanya
+                """;
+        System.out.println(huiSosiSnova);
+
+        val huiSosiOpyat = """
+Sanya hui sosi
+Hui sosi Sanya
+                """;
+        System.out.println(huiSosiOpyat);
+
+        val testA = test(a);
+        System.out.println(testA);
     }
 
-    private String test(A a) {
+    private static String test(A a) {
         if (a instanceof C) {
             return "hui C";
         } else if (a instanceof B) {
