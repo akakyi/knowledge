@@ -1,0 +1,20 @@
+git, gitflow
+merge vs rebase
+revert vs reset
+fetch vs git pull
+процесс версионирования релизов
+merge vs rebase
+gitflow
+merge vs rebase, когда что использовал
+force-push
+gitflow
+системы контроля версий
+cherry-pick
+gitflow
+идеальная схема ветвления git
+опыт с системами контроля версий
+что делает git fetch
+cherry-pick
+виды git flow
+git, сбор коммитов в один (сквош, ребейз)
+как работает cherrypick, сохраняется ли ид, содержимов

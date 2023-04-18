@@ -1,0 +1,40 @@
+rest server, rest client
+get vs post
+put vs patch
+get, идемпотентность и аудирование
+put vs patch
+get vs post
+про rest
+http коды, примеры ошибок из 4ХХ и 5ХХ
+опыт с xml
+soap, wsdl, xsd
+был ли опыт с feign
+feign
+как устроен http
+коды http
+http vs https, порт https
+что такое rest
+xss - cross site scripting
+состав http запроса
+что такое rest и soap
+swagger
+про rest, сравнить rest vs soap
+опыт интеграции по api
+swagger
+опыт с rest
+swagger
+опиши rest
+спроектировать rest api
+какие варианты сделать rest patch?
+rest, что это
+проектировать rest api
+rest: реализовать долгие таски
+soap
+websockets
+балансировка websockets
+что пользовал кроме реста?
+websockets, что это такое, как работает?
+особенности работы с websockets
+websockets ttl?
+grpc
+rest, требования, идемпотентность

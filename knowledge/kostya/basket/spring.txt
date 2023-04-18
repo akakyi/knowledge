@@ -1,0 +1,166 @@
+жизненный цикл бина
+Mappedsuperclass, стратегии наследования, варианты хранения
+embedded сущности
+работа с десятками тысяч запросов, чтобы они не забивали (подводка к webflux)
+self injection
+restcontroller vs controller
+spring security
+spring data, как работают методы репозитория
+component scan, что это, какой принцип, какие аннотации
+время жизни бина
+swagger, нюансы
+spring di, что это
+@component vs @service vs @bean
+работа с несколькими имплементациями интерфейса
+bean scopes, prototype vs singleton
+жизненный цикл бина
+автоконфигурация, стартеры
+orm
+накодить onetomany связь
+аоп
+добавить нестандартный тип данных в hibernate
+фреймворки кроме spring
+способы инжекции в spring
+выбор бина, имплементирующего интерфейс
+добавлять новые типы в hibernate
+spring security
+какие использовал orm
+self injection
+spring cache
+spring security
+оптимизация с переписыванием на нативный update
+chain of responsibility в spring
+написать свой scope в спринге, default scopes
+определение имплементации для инжектирования
+транзакции
+уровни изоляций транзакций
+с каким кэшэм работал
+@Bean vs @Component
+выбор имплементации интерфейса для инжекта
+aop
+логирование каждого http request & response
+spring validation
+spring - идеология, верхнеуровневое понимание
+разница между создании бина через интерфейс и через класс
+виды spring proxy, cglib vs dynamic, подводка, что класс не может быть final
+transactional
+self injection
+spring boot starter, чем отличается от обычной зависимости
+conditional on
+jparepository, crudrepository
+spring cloud
+spring starter
+как работает автоконфигурация
+componentscan
+какой сервер использовал
+способы инжекта бинов, какой предпочтителен
+bean scopes
+hibernate, проблема n+1, способы решения, поможет ли eager
+liquibase
+n+1 проблема
+как можно создать бин
+@qualifier и priority
+bean scopes
+scope request & threadlocal
+что дает spring boot, что делает starter стартером
+spring starter, что это такое и как сделать
+что такое spring и как он работает
+способы bean injection
+способы доинициализации бина
+почему нужно делать в postconstruct и не в конструкторе
+bean scopes
+self injection
+что выведет спринговый код
+опыт с criteria api
+делал ли свой spring starter
+для чего нужны spring profiles
+организация liquibase, как он работает
+spring di, ioc
+инициализация application context
+bean scopes
+способы инжектирования
+разрешение циклической зависимости, через lazy
+aop, примеры
+ключевые слова для своей аннотации
+spring state machines
+способы сделать findbyname в spring
+criteria api
+кэширование в hibernate
+spring ioc, di
+способы инжектирования зависимостей, предпочтительный
+что такое bean, как сделать bean
+spring bean scopes
+инициализация spring context
+сопсобы конфигурирования контекста
+как разрешить циклическую зависимость, не переписывая (@lazy)
+aop
+как сделать свою аннотацию
+spring state machine
+как сделать запрос findBy в бд
+кэширование в hibernate
+как spring реализует IOC
+с какими orm работали
+опыт с criteria api
+как использовал spring
+liquibase, как работает и откатывается
+с какими orm работал
+кэширование в hibernate
+n+1 проблема и ее решение
+как работает система логирования
+жизненный цикл бина
+predestroy выполнится при всех scope?
+spring starter
+этапы инициализации spring context
+как заинжектить prototype в singleton
+как spring разруливает технические зависимости
+при всех ли способах инжектирования будет выдавать ошибку циклической зависимости
+виды spring proxy, как настраиваются
+чем отличаются @component @service @repository
+spring security
+в @preauthorize spel
+основы aop
+что такое spring
+bean scopes
+bean proxy, примеры где они в спринге, как они работают
+spring boot vs spring
+spring factories deprecated (вроде бы) для sb3
+управление созданием бина
+что такое spring bean
+способы создания бина
+@service, @component, @repository, @controller, @bean
+как работал с бд, виды orm
+bean scopes
+hibernate: get vs load
+aop
+spring, что собой представляет
+bean scopes
+как инициализируется spring context
+spring conditions, conditionalOn
+spring data
+hibernate проблемы
+рассказ про querydsl
+liquibase & querydsl
+springboot vs spring
+зачем нужен application.properties
+автоконфигурация и conditionals
+как вызвать транзакцию в spring
+transaction propagation
+как spring обрабатывает транзакцию
+как сделать в коде select к бд
+динамичные вопросы
+проблемы, связанные с hibernate
+кэши с hibernate, проблемы с ним
+кэширование в спринге, как работает по умолчанию
+spring, что это, преимущества
+способы инжектирования, какой лучше
+spring boot, что это
+spring hibernate custom types (jsonb)
+spring cache
+на базе чего самый примитивный кэш - concurrenthashmap
+bean scopes
+список бинов общего интерфейса
+подводка к depends on или к order
+spring transactions
+как spring понимает, что нужно вызывать proxy
+n + 1, как избежать
+eager vs lazy

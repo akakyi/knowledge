@@ -1,0 +1,13 @@
+что нравится в kotlin, какие у него плюсы относительно java
+работал ли с корутинами
+coroutines
+был ли kotlin
+опыт с корутинами
+с какими языками знаком, знаешь ли kotlin
+как реализованы kotlin extention
+отличие stream api от kotlin collection api
+kotlin
+kotlin channel vs java thread + looms
+какие были проблемы с переписыванием с java на kotlin
+kotlin, с чем работал, приходилось ли писать dsl
+data class + hibernates, nullable проблемы

@@ -1,0 +1,12 @@
+name frontend frameworks and companies
+что думаешь про scala
+are you familiar with frontend
+javascript understanding and release notes
+какой был опыт во фронте, нужен фуллстек
+опыт frontend
+bpmn, camunda и подобное
+другие технологии кроме java
+опыт с другими технологиями
+отношение к чистому коду
+опыт с python
+изменяемые и неизменяемые типы данных в python

@@ -1,0 +1,148 @@
+linkedlist vs arraylist
+как быстро и много вставлять (наводящий вопрос на особый итератор который может вставлять/удалять элементы)
+stream api, виды операций
+interface, зачем default methods
+в чем хранить деньги в java, почему не во float/double
+сравнение bigdecimal
+обертка одной мапы вокруг другой
+hashmap vs treemap
+когда treemap лучше hashmap
+как создать мапу, чтобы она перестраивалась при полном заполнении
+linkedhashmap для сохранения порядка вставки
+конструкторы arraylist
+stream, какие проблемы им решали, зачем они был создан и какие проблемы решает
+виды операций в стримах
+flatmap
+collector joining
+кодинг со стримами
+что такое лямбда
+отношение к ключевому слову var
+что выведет код в консоль
+integer range
+как прочитать большой файл и работать с ним
+способы разрешения коллизий в hashmap
+как превратить hashmap в linkedlist
+hashmap, устройство и сложность
+treemap vs hashmap
+stream, типы операций, ограничения и т.д.
+можно ли несколько терминальных операций на стриме
+кодинг со стримами
+дальше кодинг время от времени
+что такое лямбды
+что такое функциональный интерфейс
+generics, ковариантность, контрвариантность
+виды ссылок
+как разные виды ссылок связаны с classloader
+нужно ли модификаторы указывать в интерфейсе
+что такое final переменные
+типа exception
+типы error
+singleton из java core
+enum
+singleton на базе enum
+каких типов бывают аннотации
+типы аннотаций и их области применения
+как сравнивать double числа
+hashmap vs treemap
+hashset
+abstract class vs interface
+что выведет код
+типы аннотаций
+ограничения stream api
+hashset
+abstract class vs interface
+что выдаст код (буфер int & string)
+stream, виды операций, что если без терминальных
+map vs flatmap
+ограничения на переменные, передаваемые в lambda
+функциональные интерфейсы
+equals & hashcode
+hashmap
+иерархия исключений
+interface vs class
+что такое pojo
+возможности интерфейсов, приближающих их к java классам
+default method в java core
+функциональный интерфейс
+interface без методов
+виды операций в stream
+зачем нужен foreeach
+stream reduce
+среднее арифметическое через stream (подвод к intstream.avarage())
+stream peek
+hashmap
+иерархия exception
+streams, два основных типа методов
+что выведет код в консоль
+дописать код
+sortedset, treeset
+реализации map
+какая map с сохранением порядка
+устройство hashmap
+типа операций в stream
+кодинг со стримами
+иерархия exception, с подробностями и кодингом
+кодинг на generics и затирания типов
+с какой версией java работал
+hashmap, во что вырождается при hashcode = const
+иерархия исключений
+типы коллекций, с какими приходилось работать
+public, private modifiers
+components of java machine
+difference between java and c++
+functional programming things in java
+что такое final, finalize, finally
+сложность добавления элемента в arraylist и в linkedlist
+для чего нужны интерфейсы и для чего абстрактные классы
+с какой java работал, что в ней изменилось
+какие два класса не наследуются от object (никакие)
+local variable vs instance variable
+protected vs private
+string, stringbuilder, stringbuffer
+почему string immutable
+equals vs ==
+правило переопределения equals
+exception vs error
+что происходит при превышении размера arraylist
+сложность получения по индексу
+stack vs queue
+тип данных для пароля
+boxing-unboxing, зачем это
+string vs stringbuilder vs stringbuffer
+можно ли хранить разные типы данных в array
+какие типы бывают в java, их отличие
+hashmap, можно ли использовать bytearray
+что такое интерфейс в java
+абстрактный класс vs интерфейс
+интерфейсы без методов, примеры из java core
+функциональные интерфейсы
+что такое рефлексия
+stream, виды и типы операций, можно ли переиспользовать
+peek vs map
+проблемы с peek
+generics, wildcards
+extends and super
+bridge methods (связано с wildcards)
+функциональные интерфейсы
+что собой представляет lambda
+могут ли функциональные интерфейсы иметь несколько методов
+string intern
+какие коллекции и мапы и их интерфейсы знаете
+виды map, какую выбрать
+string pool, способы создания строк
+equals & hashcode, зачем их переопределять и как
+иерархия исключений
+что не нравится в java
+перегрузка/переопределение, override/overload, они относятся к статическому или динамическому полиморфизму
+optional
+stream api, виды операция
+foreach vs foreachordered
+peek vs foreach
+сериализация/десериализация
+способы изменения стандартного поведения сериализации в java (transient и т.д.)
+java and function programming
+как работает и блокируется concurrenthashmap
+equals hashcode, требования к контракту
+hashmap
+типы операций в стримах
+функциональные интерфейсы

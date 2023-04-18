@@ -1,0 +1,41 @@
+kafka, kafka vs mq
+kafka, зачем нужна,
+kafka, kafka vs mq
+kafka vs mq
+если упасть на сообщении в кафке, сколько сообщений потеряем
+как использовал kafka
+kafka, основные сущности и принцип работы
+kafka consumer groups, partitions
+kafka
+многоброкерное подключение к kafka
+kafka кворум
+способы ack в кафке
+kafka & partitions
+можно ли из топика, распределенного по трем партициям, прочитать данные с сохранением порядка
+как сделать, чтобы сообщения по одному клиенту попали в одну партицию
+опыт с kafka
+rabbit mq
+rabbit mq
+опыт с ibm системами (websphere и т.д)
+опыт с очередями, kafka
+опыт с брокерами сообщений
+kafka, rabbit
+версионирование схем кафки
+kafka vs rabbit
+message brokers: queue vs topic
+персистентность в брокерах
+kafka, зачем использовал
+kafka персистентность
+kafka partition consumers offset
+kafka error processing on @listener
+kafka streams
+kafka trigger интервалы
+опыт с kafka streams
+что такое kafka
+как скейлится kafka
+из чего состоит kafka message
+почему важен ключ
+kafka реплицирование, влияет ли оно на масштабирование
+какие delivery семантик поддерживает kafka
+перебалансировка партиций-консюмеров
+опыт с kafka

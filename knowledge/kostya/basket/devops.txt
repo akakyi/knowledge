@@ -1,0 +1,37 @@
+jenkins, dockerfile, kuber, openshift
+опыт с bash & unix
+keycloak
+опыт с keycloak
+опыт с s3
+опыт с docker, docker compose
+docker, gradle, maven, что это и зачем
+ci/cd
+docker, docker vs virtualbox
+bash команды
+docker vs vm
+docker-compose
+основы kubernetes
+зачем 2 контейнера в одном поде, sidecar
+kubernetes deployment
+kubernetes services
+ingress
+helm chart
+опыт установки ibm mq
+где смотрел логи
+elk stack
+опыт трассировки
+kubernetes: deployments and services
+что было артефактом сборки
+где лежали конфиги и секреты и как они собирались в опеншифт
+процесс логирования
+какие задачи по инфраструктуре бд, очередей, оркестраторов делал своими руками
+docker
+kubernetes, опыт администрирования и использования
+ci-cd
+sonarcube
+docker
+работа с логами, понимание стека elk-типа
+опыт devops, опыт с helm
+blue-green deploy
+логирование, log4j выводы
+ответить за gitlab ci/cd
