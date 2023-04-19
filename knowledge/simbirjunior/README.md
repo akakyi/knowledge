@@ -1,0 +1,43 @@
+# Вопросы для собеседования на Java Developer
+
++ [Generics](generics.md) ![icon][done]
++ [Git](git.md) ![icon][done]
++ [Maven](maven.md) ![icon][done]
++ [ООП](oop.md) ![icon][done]
++ [Java Core](core.md) ![icon][done]
++ [Java Collections Framework](jcf.md) ![icon][done]
++ [Java 8](java8.md) ![icon][done]
++ [Исключения](exceptions.md) ![icon][done]
++ [Аннотации](annotations.md) ![icon][done]
++ [Рефлексия](reflection.md) ![icon][done]
++ [Потоки ввода-вывода в Java](io.md) ![icon][done]
++ [Сериализация](serialization.md) ![icon][done]
++ [Модель памяти Java](jmm.md) ![icon][done]
++ [Многопоточность](concurrency.md) ![icon][done]
++ [Servlets, JSP, JSTL](servlets.md) ![icon][done]
++ [Базы данных](db.md) ![icon][done]
++ [SQL](sql.md) ![icon][done]
++ [JDBC](jdbc.md) ![icon][done]
++ [Spring](spring.md) ![icon][done]
++ [Spring Boot](springBoot.md) ![icon][done]
++ [Spring Cloud](springCloud.md) ![icon][done]
++ [Spring Data](springData.md) ![icon][done]
++ [Spring MVC](springMVC.md) ![icon][done]
++ [Spring Security](springSecurity.md) ![icon][done]
++ [Spring Web](springWeb.md) ![icon][done]
++ [Spring AOP](springAOP.md) ![icon][done]
++ [Hibernate](hibernate.md) ![icon][done]
++ [Тестирование](test.md) ![icon][done]
++ [Журналирование](log.md) ![icon][done]
++ [UML](uml.md) ![icon][done]
++ [XML](xml.md) ![icon][done]
++ [Шаблоны проектирования](patterns.md) ![icon][done]
++ [Основы HTML](html.md) ![icon][done]
++ [Основы CSS](css.md) ![icon][done]
++ [Основы Web](web.md) ![icon][done]
++ [Дополнительные материалы](additional.md) ![icon][done]
+
+[done]:done.png
+
+## Источники
++ [Вопросы на собеседование Junior Java Developer](https://jsehelper.blogspot.ru)
