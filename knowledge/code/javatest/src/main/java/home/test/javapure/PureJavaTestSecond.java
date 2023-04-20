@@ -5,6 +5,7 @@ import lombok.val;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 public class PureJavaTestSecond {
 
@@ -23,6 +24,9 @@ public class PureJavaTestSecond {
         System.out.println("Operation");
         t.join();
         System.out.println("Ended");
+
+        Collections.synchronizedList(List.of());
+        new ConcurrentSkipListSet<String>();
     }
 
 }
