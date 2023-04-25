@@ -16,6 +16,7 @@ abstract public class BaseQuickSort<Type extends Comparable<Type>> {
 
     protected List<Type> sortInternal(List<Type> list) {
         int size = list.size();
+        System.out.println(size);
         if (size <= 1) {
             return list;
         }
@@ -52,8 +53,12 @@ abstract public class BaseQuickSort<Type extends Comparable<Type>> {
                 rebasedList.lastIndexOf(pivot)
         );
 
-        val leftSorted = sort(rebasedList.subList(0, currentPivotIndex));
-        val rightSorted = sort(rebasedList.subList(currentPivotIndex, size));
+        val left = rebasedList.subList(0, currentPivotIndex);
+        val right = rebasedList.subList(currentPivotIndex, size);
+        System.out.printf("left size %d\n", left.size());
+        System.out.printf("right size %d\n", right.size());
+        val leftSorted = sort(left);
+        val rightSorted = sort(right);
         val result = new ArrayList<Type>(size);
         result.addAll(leftSorted);
         result.addAll(rightSorted);
