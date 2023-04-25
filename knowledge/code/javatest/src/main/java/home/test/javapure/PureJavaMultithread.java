@@ -1,17 +1,14 @@
 package home.test.javapure;
 
-import home.test.javapure.randm.ThreadExecutorServiceQuickSort;
 import home.test.javapure.randm.SequentialQuickSort;
+import home.test.javapure.randm.ThreadExecutorServiceQuickSort;
 import lombok.val;
 
-import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -19,7 +16,7 @@ public class PureJavaMultithread {
 
     public static void main(String[] args) {
         val rand = new Random();
-        val arrSize = 100;
+        val arrSize = 100000;
 
         val list = IntStream.generate(rand::nextInt)
                 .limit(arrSize)
@@ -41,7 +38,7 @@ public class PureJavaMultithread {
 
 
         System.out.println("START SORTING!!!!!!!!!!!!!!!!!!!!");
-        val cachedThreadPool = Executors.newCachedThreadPool();
+        ThreadPoolExecutor cachedThreadPool = (ThreadPoolExecutor) Executors.newCachedThreadPool();
         try {
             val executorServiceQuickSort = new ThreadExecutorServiceQuickSort<Integer>(cachedThreadPool);
             val executorServiceStart = Instant.now();
@@ -58,7 +55,7 @@ public class PureJavaMultithread {
 
         System.out.println("START SORTING!!!!!!!!!!!!!!!!!!!!");
         val threadCount = 8;
-        val fixedThreadPool = Executors.newFixedThreadPool(threadCount);
+        ThreadPoolExecutor fixedThreadPool = (ThreadPoolExecutor) Executors.newFixedThreadPool(threadCount);
         try {
             val executorServiceQuickSort = new ThreadExecutorServiceQuickSort<Integer>(fixedThreadPool);
             val executorServiceStart = Instant.now();
