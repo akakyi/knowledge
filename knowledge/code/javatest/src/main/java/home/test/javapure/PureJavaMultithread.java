@@ -57,8 +57,8 @@ public class PureJavaMultithread {
         }
 
         System.out.println("START SORTING!!!!!!!!!!!!!!!!!!!!");
-        val coresCont = 4;
-        val fixedThreadPool = Executors.newFixedThreadPool(coresCont);
+        val threadCount = 8;
+        val fixedThreadPool = Executors.newFixedThreadPool(threadCount);
         try {
             val executorServiceQuickSort = new ThreadExecutorServiceQuickSort<Integer>(fixedThreadPool);
             val executorServiceStart = Instant.now();
