@@ -3,6 +3,7 @@
 Читать в файлах симбира. Но там местами больно
 так что вот ещё:
 https://habr.com/ru/articles/693244/
+https://www.baeldung.com/thread-pool-java-and-guava
 
 и вот ещё момент, чуть поясню к симбирскому:
 As stated earlier, the main difference between synchronized and ReentrantLock is the ability to trying to lock interruptibly, and with a timeout. The thread doesn't need to block infinitely, which was the case with synchronized.
