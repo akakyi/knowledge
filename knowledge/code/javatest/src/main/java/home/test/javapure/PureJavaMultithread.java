@@ -8,6 +8,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.Random;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -54,7 +55,7 @@ public class PureJavaMultithread {
         }
 
         System.out.println("START SORTING!!!!!!!!!!!!!!!!!!!!");
-        val threadCount = 4;
+        val threadCount = 6;
         ThreadPoolExecutor fixedThreadPool = (ThreadPoolExecutor) Executors.newFixedThreadPool(threadCount);
         try {
             val executorServiceQuickSort = new ThreadExecutorServiceQuickSort<Integer>(fixedThreadPool);
